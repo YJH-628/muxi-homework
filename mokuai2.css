@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+input{
+    border: 2px solid rgba(249, 4, 4, 0.772);
+    outline-style: none;
+}

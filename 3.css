@@ -1,0 +1,36 @@
+
+#header{
+    background-color: #cdd3de;
+    padding: 20px;
+    text-align: center;
+  }
+  #content{
+    background-color: #f0b7c0;
+    text-align: center;
+    width: 40%;
+    padding: 20px;
+    margin:  20px;
+    overflow: hidden;
+  }
+  #sidebar{
+    background-color: #f0d2e6;
+    float: left;
+    padding: 20px;
+    margin: 20px 0px;
+    width: 30%;
+  }
+  #sidebar2{
+    background-color: #c3eedf;
+    float: right;
+    padding: 20px;
+    margin: 20px 0px;
+    width: 20%;
+  }
+  #footer{
+    background-color: #f7f9c2;
+    clear: both;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+  

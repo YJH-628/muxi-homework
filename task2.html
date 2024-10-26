@@ -1,0 +1,49 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人信息表单</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <form>
+        <h2>个人信息</h2>
+        <div class="picture">
+            <label for="picture">头像</label>
+            <input type="file" id="picture" accept="image/*" style="margin: 0px 10px;">
+        </div>
+        <div class="name">
+            <label for="name">昵称</label>
+            <input type="text" id="name" style="margin: 0px 10px 0px;" >
+        </div>
+        <div class="education">
+            <label for="education">学历</label>
+            <select id="education">
+                <option value="dazhuan">大专</option>
+                <option value="undergraduate">本科</option>
+            </select>
+        </div>
+        <div class="gender">
+            <label for="gender">性别</label>
+            <input type="radio" name="sex" style="margin: 0px 10px;" >男
+            <input type="radio" name="sex" >女
+        </div>
+        <div class="hobby">
+            <label for="hobbies">爱好</label>
+            <input type="checkbox" name="hobbies" style="margin: 0px 10px;" >电影
+            <input type="checkbox" name="hobbies" >摄影
+            <input type="checkbox" name="hobbies" >音乐
+            <input type="checkbox" name="hobbies" >阅读
+            
+        </div>
+        <div class="signature">
+            <label for="signature">签名</label>
+            <textarea id="signature" rows="5" cols="50" style="margin: 10px 50px;"></textarea>
+        </div>
+        <button type="submit">保存</button>
+    </form>
+</body>
+</html>
+</body>
+</html>
